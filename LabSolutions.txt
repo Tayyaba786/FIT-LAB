@@ -1,0 +1,46 @@
+						Lab Exercises
+
+
+Exercise 1:
+	No error.
+Exercise 2:
+	Run time error. As value is divided by 0.
+Right code is :
+public class HelloWorld{
+	public static void main(String [] args){
+		System.out.println(100/1);
+	}
+}
+
+Exercise 3:
+	Syntax error. Spelling of "system" was wrong.
+Right code is :
+public class HelloWorld{
+	public static void main(String [] args){
+		System.out.println(100/100);
+	}
+}
+
+Exercise 4:
+	Syntax error. variable is not initialized properly.
+Right code is :
+public class HelloWorld{
+	public static void main(String [] args){
+		int a=4;
+		int b=15;
+		System.out.println(a+" 	"+b );
+	}
+}
+
+Exercise 5:
+	Syntax error. Type of variable is not defined.
+Right code is :
+public class HelloWorld{
+	public static void main(String [] args){
+		int a=15;
+		int b=16;
+		int c=a+b;
+		System.out.println(c);
+	}
+}
+	
